@@ -24,6 +24,8 @@ if(faveNum === 13) {
   console.log(`lucky 13!`)
 } else console.log(`not lucky 13`)
 
+// This is a turnary
+ // faveNum === 13 ? console.log(`Lucky 13`) : console.log(`not lucky 13`)
 
 //////////////////PROBLEM 5////////////////////
 /*
