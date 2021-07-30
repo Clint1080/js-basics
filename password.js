@@ -5,7 +5,8 @@ console.log('Please create a password')
 function passwordValidator() {
 
 }
-
+// I somehow thought that objects was my last part of the assessment. 
+// I didn't remember the password part of the assessment until about 15 minutes left and I panicked 
 
 ///////////////////////////////////ADDED IN REVIEW/////////////////////
 
