@@ -8,8 +8,8 @@
 function sum(num1, num2){
   return num1 + num2
 }
-let add = sum(25, 3)
-console.log(add)
+// let add = sum(25, 3)
+console.log(sum(2, 3))
 
 //////////////////PROBLEM 2////////////////////
 /*
