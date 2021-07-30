@@ -9,7 +9,10 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = `Git is software for tracking changes in any set of files,
+ usually used for coordinating work among programmers collaboratively developing source code 
+ during software development. Its goals include speed, data integrity, and support for distributed, 
+ non-linear workflows (thousands of parallel branches running on different systems)`;
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +20,9 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = `GitHub is a provider of Internet hosting for software development and version
+ control using Git. It offers the distributed version control and source code management 
+ functionality of Git, plus its own features.`;
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -33,7 +38,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+    description: `Initialize the repository in your current working directory`,
+    code: `git init`
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +49,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+    description: `Clone a repository into a new directory `,
+    code: `git clone`
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +60,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+  description: `Shows the working tree status`,
+  code: `git status`,
+};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +71,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+    description: `Add the file contents to the index`,
+    code: `git add`
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +82,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+  description: `Record changes to the repository`,
+  code: `git commit"`,
+};
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,4 +94,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description: `Update remote refs along with associated objects`,
+    code: `git push`
+}
