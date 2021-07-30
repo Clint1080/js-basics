@@ -66,3 +66,9 @@ function iLove(name, love){
 }
 
 console.log(iLove(`Joseph`, `music`))
+
+// ADDED IN REVIEW
+// const iLove = (name, love) => {
+//   return `${name} loves ${love}`
+// }
+// console.log(iLove(`Joseph`, `music`))
