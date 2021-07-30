@@ -14,10 +14,33 @@
   For example: 'Hello! My name is Rubber Duck and I live in Utah"
 */
 
-//CODE HERE
+class Me {
+  constructor(firstName, state, age) {
+    this.firstName = firstName;
+    this.state = state;
+    this.age = age;
+  }
+  greeter() {
+    console.log(`Hello! My name is`, this.firstName, `and I live in`, this.state)
+  }
+}
 
+let clint = new Me(`Clint`, `Utah`, 35)
+console.log(clint)
 
+// let me = {
+//   firstName: `Clint`,
+//   state: `Utah`,
+//   age: 35,
+//   // greeter: function() {
+//   //   return `Hello! My name is ${this.firstName} and I live in ${this.state}`
+//   // }
+//   greeter() {
+//     console.log(`Hello! My name is ${this.firstName} and I live in ${this.state}`)
+//   }
+// }
 
+// console.log(me)
 
 
 //////////////////PROBLEM 2////////////////////
@@ -44,4 +67,14 @@
   }
 */
 
-//CODE HERE
+class carFactory {
+  constructor(make, model, year) {
+    this.make = make
+    this.model = model
+    this.year = year
+  }
+  
+}
+
+let newCar = new carFactory(`Nissan`, `Altima`, 2005)
+console.log(newCar)
