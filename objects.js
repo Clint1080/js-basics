@@ -42,6 +42,17 @@ console.log(clint)
 
 // console.log(me)
 
+//////////////////ADDED IN REVIEW///////////////////////
+const me = {
+  firstName: `Clint`,
+  state: `Utah`,
+  age: 35,
+  greeter: function() {
+    return `Hello! my name is ${this.firstName} and I live in ${this.state}`
+  }
+}
+console.log(me.greeter())
+
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -78,3 +89,24 @@ class carFactory {
 
 let newCar = new carFactory(`Nissan`, `Altima`, 2005)
 console.log(newCar)
+
+
+//////////////////ADDED IN REVIEW///////////////////////
+
+const carFactory = (make, model,year) => {
+  let car = {
+    make,
+    model,
+    year
+  }
+
+  if(car.year > 2018) {
+    car.isNew = true
+  } else {
+    car.isNew = false
+  }
+
+  return car
+}
+
+console.log(carFactory(`Toyota`, `Camry`, 2020))
