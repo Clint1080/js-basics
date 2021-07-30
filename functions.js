@@ -8,7 +8,6 @@
 function sum(num1, num2){
   return num1 + num2
 }
-// let add = sum(25, 3)
 console.log(sum(2, 3))
 
 //////////////////PROBLEM 2////////////////////
@@ -29,6 +28,15 @@ function greaterThanFive(number) {
 let numberCheck = greaterThanFive(7)
 console.log(numberCheck)
 
+// const greaterThanFive = function (number) {
+//   if(number > 5){
+//     return true
+//   } 
+//   return false
+// }
+// console.log(greaterThanFive(23))
+
+
 //////////////////PROBLEM 3////////////////////
 /*
   Create a function called 'findZWords' that takes in one parameter, 'word'. 
@@ -45,6 +53,7 @@ function findZWords(word) {
   }
 }
 findZWords(`zathura`)
+
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
