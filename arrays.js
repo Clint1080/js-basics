@@ -49,3 +49,18 @@ function bigOrSmall(arr){
 }
 let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107];
 console.log(bigOrSmall(bigOrSmallArray))
+
+//////////////////////////ADDED IN REVIEW////////////////////////////
+
+// const bigOrSmall = arr => {
+//   let answer = []
+//   for(let i = 0; i < arr.length; i++) {
+//     if(arr[i] > 100){
+//       answers.push(`big`)
+//     } else {
+//       answers.push(`small`)
+//     }
+//   }
+//   return answers
+// }
+// console.log(bigOrSmall(3, 798, 100, 456))
